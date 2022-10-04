@@ -1,0 +1,17 @@
+.site-nav__list {
+    position: relative;
+  
+    display: flex;
+    margin-left: 93px;
+    gap: 50px;
+  }
+  .site-nav__link {
+    transition: 250ms color var(--cubic);
+  }
+  .site-nav__link:hover,
+  .site-nav__link:focus {
+    color: var(--accent-color);
+    cursor: pointer;
+    opacity: 1;
+  }
+        

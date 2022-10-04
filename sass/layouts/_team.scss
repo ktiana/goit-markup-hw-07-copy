@@ -1,0 +1,66 @@
+.team__section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--secondary-background-color);
+  }
+  .team__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 16px;
+  }
+  .team__item {
+    background: var(--white-text-color);
+    border-radius: 0px 0px 4px 4px;
+  }
+  .team__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    color: var(--primary-text-color);
+  }
+  .team__job {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--secondary-text-color);
+  }
+  .team__desc {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .team__icon {
+    fill: var(--grey);
+    transition: 250ms fill color var(--cubic);
+  }
+  .team__link {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+    background-color: transparent;
+    background-color: var(--white-text-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 50%;
+    border: none;
+  
+    width: 44px;
+    height: 44px;
+    margin: 0;
+  
+    transition: 250ms background-color var(--cubic);
+  }
+  .team__link:hover,
+  .team__link:focus {
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+  }
+  .team__link:hover .team__icon,
+  .team__link:focus .team__icon {
+    fill: var(--white-text-color);
+  }
